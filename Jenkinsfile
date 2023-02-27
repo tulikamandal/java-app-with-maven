@@ -1,5 +1,5 @@
 node {
-  stage('SCM 3') {
+  stage('SCM 4') {
     checkout scm
   }
   stage('SonarQube Analysis') {
